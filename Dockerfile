@@ -53,6 +53,9 @@ RUN apt-get update &&  apt-get install  -y \
     psmisc \
     tcpdump \
     iputils-ping \
+    libjansson-dev \
+    libevent-dev \
+    libssl-dev \
  && apt-get clean
 
 RUN cd /tmp \
