@@ -56,6 +56,10 @@ RUN apt-get update &&  apt-get install  -y \
     libjansson-dev \
     libevent-dev \
     libssl-dev \
+    flex \
+    bison \
+    aptitude \
+    htop \
  && apt-get clean
 
 RUN cd /tmp \
